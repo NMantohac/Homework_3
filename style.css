@@ -14,7 +14,8 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: lightgray;
+  background-image: url(./Assets/4-42609_matrix-animated-gif-free-wallpaper-download-matrix-gif.jpg);
 }
 
 .wrapper {
@@ -25,9 +26,14 @@ body {
 
 header {
   text-align: center;
+  text-decoration: underline;
   padding: 20px;
-  padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  margin-top: -20px;
+  margin: 0 auto;
+  width: 75%;
+  color: rgb(14, 143, 14);
+  background: black;
+  border: 3px solid green;
 }
 
 .card {
@@ -38,8 +44,17 @@ header {
   color: hsl(206, 17%, 28%);
   font-size: 18px;
   margin: 0 auto;
+  margin-top: 20px;
   max-width: 800px;
   padding: 30px 40px;
+  background: black;
+  border: 3px solid green;
+}
+
+.card-header h2 {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(22, 168, 22);
 }
 
 .card-header::after {
@@ -52,6 +67,14 @@ header {
 
 .card-body {
   min-height: 100px;
+}
+
+.card-body-text h3 {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(22, 168, 22);
 }
 
 .card-footer {
@@ -74,7 +97,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: darkgreen;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -116,9 +139,12 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+  color: rgb(22, 168, 22);
+  background: black;
 }
 
 @media (max-width: 690px) {
+  
   .btn {
     font-size: 1rem;
     margin: 16px 0px 0px 0px;
@@ -131,6 +157,15 @@ button[disabled] {
 }
 
 @media (max-width: 500px) {
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  .card-header h2 {
+    font-size: 25px;
+  }
+
   .btn {
     font-size: 0.8rem;
   }
