@@ -18,13 +18,50 @@
 
       <main>
         <div class="card">
+
           <div class="card-header">
             <h2>Generate a Password</h2>
           </div>
+
           <div class="card-body">
+
             <div class="card-body-text">
               <h3>Password Criteria:</h3>
             </div>
+
+            <form>
+
+              <div class="form-group">
+                
+                <label for="password-length"> 
+                  <div class="form-text-color"> <span id="asterisk">*</span> Password Length:</div> 
+                </label>
+
+                <input type="text" class="form-control" id="password-length-input" placeholder="Input only one number to indicate the number of characters you want" />
+                <small id="password-help" class="form-text text-muted"> Must be at least 8 characters, but no more than 128 characters</small>
+
+              </div>
+
+              <label for="character-types">
+                <div class="form-text-color"> <span id="asterisk">*</span> Character Types: </div> 
+                <small id="character-types-help" class="form-text text-muted">Must choose at least one option</small>
+              </label>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="lowercase-text">
+                <label for="lowercase">Lowercase</label>
+                <br>
+                <input type="checkbox" class="form-check-input" id="uppercase-text">
+                <label for="uppercase">Uppercase</label>
+                <br>
+                <input type="checkbox" class="form-check-input" id="numeric-text">
+                <label for="numeric">Numeric</label>
+                <br>
+                <input type="checkbox" class="form-check-input" id="special-characters-tex">
+                <label for="special-characters">Special Characters</label>
+              </div>
+            </form>
+
             <textarea
               readonly
               id="password"
@@ -32,6 +69,7 @@
               aria-label="Generated Password"
             ></textarea>
           </div>
+
           <div class="card-footer">
             <button id="generate" class="btn">Generate Password</button>
           </div>
