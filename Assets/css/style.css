@@ -178,6 +178,10 @@ button[disabled] {
     font-size: 25px;
   }
 
+  textarea {
+    height: 325px;
+  }
+
   .btn {
     font-size: 0.8rem;
   }
