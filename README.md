@@ -12,7 +12,7 @@ Description:
     in different screens sizes.
   - The password generator and the website is done through HTML, CSS, and Javascript code in Visual Studio Code, and utilizes
     Bootstrap with its components and utilities. The css file contains standard css practices and media queries, whereas in the
-    javascript file, it contains variables (large amount!), objects, functions, for-loops, and if-else statements.
+    javascript file, it contains variables (large amounts), objects, functions, for-loops, and if-else statements.
   
  Technologies:
   - Visual Studio Code
@@ -30,13 +30,11 @@ Description:
     through lecture videos a lot and also looking through a couple password generator examples online in order for me to understand
     their javascript code.
   - I definitely have learned quite a bit in regards to javascript compared to before I even started out this homework. After going 
-    through lecture videos and looking through various questions/answers in stackoverflow, I was able to understand the concepts I 
-    didn't understand before and was able to implement them.
+    through lecture videos, reading a bunch of javascript documentation, and looking through various questions/answers in stackoverflow,     I was able to understand the concepts I didn't understand before and was able to implement them.
   - I was able to solve each of my problem through persistent effort and using my online resources!
     
   Screenshot(s):
   - Password Generator: https://puu.sh/FnNHH/9396a881ce.png
   - Password Generator w/ a Random Generated Password: https://puu.sh/FnNIJ/e270ab5720.png
   - Password Generator w/ a Error Message: https://puu.sh/FnNJB/0389bbf009.png
-  
   
