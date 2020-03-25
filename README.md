@@ -34,7 +34,10 @@ Description:
   - I was able to solve each of my problem through persistent effort and using my online resources!
     
   Screenshot(s):
-  - Password Generator: https://puu.sh/FnNHH/9396a881ce.png
-  - Password Generator w/ a Random Generated Password: https://puu.sh/FnNIJ/e270ab5720.png
-  - Password Generator w/ a Error Message: https://puu.sh/FnNJB/0389bbf009.png
+  Password Generator:
+  ![Password Generator:](https://puu.sh/FnNHH/9396a881ce.png)
+  Password Generator w/ a Random Generated Password:
+  ![Password Generator w/ a Random Generated Password:](https://puu.sh/FnNIJ/e270ab5720.png)
+  Password Generator w/ a Error Message:
+  ![Password Generator w/ a Error Message:](https://puu.sh/FnNJB/0389bbf009.png)
   
