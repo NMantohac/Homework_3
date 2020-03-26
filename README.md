@@ -35,9 +35,13 @@ Description:
     
   Screenshot(s):
   Password Generator:
-  ![Password Generator:](https://puu.sh/FnNHH/9396a881ce.png)
+  ![Password Generator:](https://puu.sh/FoZil/1bbab453a0.png)
   Password Generator w/ a Random Generated Password:
-  ![Password Generator w/ a Random Generated Password:](https://puu.sh/FnNIJ/e270ab5720.png)
+  ![Password Generator w/ a Random Generated Password:](https://puu.sh/FoZiT/81174d3d2c.png)
   Password Generator w/ a Error Message:
-  ![Password Generator w/ a Error Message:](https://puu.sh/FnNJB/0389bbf009.png)
+  ![Password Generator w/ a Error Message:](https://puu.sh/FoZkz/7eef4d79fd.png)
+  Password Generator w/ Copy Alert: 
+  ![Password Generator w/ Copy Alert:](https://puu.sh/FoZk4/e1ffba13b1.png)
+  Password Generator w/ Invalid Copy Alert:
+  ![Password Generator w/ Invalid Copy Alert:](https://puu.sh/FoZle/62493e11d4.png)
   
