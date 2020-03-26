@@ -3,6 +3,7 @@ var lowercaseCheckBox = document.querySelector("#lowercase-checkbox");
 var uppercaseCheckBox = document.querySelector("#uppercase-checkbox");
 var numbersCheckBox = document.querySelector("#numbers-checkbox");
 var symbolsCheckBox = document.querySelector("#symbols-checkbox");
+var copyBtn = document.querySelector("#copy");
 var generateBtn = document.querySelector("#generate");
 
 var passwordCriteria = {
@@ -11,6 +12,18 @@ var passwordCriteria = {
   numbers: "0123456789",
   symbols: "!\"#$%&'()*+,-./:;<=>?@[\\\\]^_`{|}~"
 };
+
+copyBtn.addEventListener("click", function () {
+  var passwordValue = document.querySelector("#password");
+  if (passwordValue.value === "" || passwordValue.value === "Please determine a correct password length and select at least one character type(s) option!") {
+    alert("Please generate a valid password to copy!");
+  } 
+  else {
+    passwordValue.select();
+    document.execCommand("copy");
+    alert("Password Copied!");
+  }
+});
 
 generateBtn.addEventListener("click", function() {
   var passwordLengthValue = +passwordLength.value;
