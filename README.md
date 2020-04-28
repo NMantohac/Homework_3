@@ -1,8 +1,8 @@
 # Homework_3
 
 URL Links:
-  1) https://github.com/NMantohac/Homework_3
-  2) https://nmantohac.github.io/Homework_3/
+  1) https://github.com/NMantohac/Homework_3_Password_Generator
+  2) https://nmantohac.github.io/Homework_3_Password_Generator/
   
 Description:
   - A password generator that generates a random password based on the criteria of the password length and character types. The password 
